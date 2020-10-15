@@ -1,0 +1,7 @@
+Missing value Handling
+1.Removing the Row
+2.Removing the Column
+3.Replace the missing value with appropriate value.
+	*We can use any of the central tendancy statistical value for replacement
+	*mean,median or mode of the feature can be used for replacing the missing value.
+

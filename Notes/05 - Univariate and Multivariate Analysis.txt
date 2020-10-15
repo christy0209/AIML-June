@@ -1,0 +1,20 @@
+Univariate and Multivariate analysis
+
+Univariate Analysis - We are analysing one feature at a time.
+
+Boxplot
+A box plot (also known as box and whisker plot) is a type of chart often used in explanatory data analysis 
+to visually show the distribution of numerical data and outlier through 
+displaying the data quartiles (or percentiles) and averages
+
+Prerequisites for boxplot
+
+What is outliers?
+In statistics, an outlier is a data point that differs significantly from other observations.
+
+
+What is correlation?
+In statistics, correlation or dependence is any statistical relationship, 
+whether causal or not, between two random variables or bivariate data. 
+Correlation varies from -1 to 1.
+Sign represents the direction and value represents the strength of correlation.

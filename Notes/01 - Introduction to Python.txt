@@ -1,0 +1,13 @@
+Python
+-Pandas (Panel Data - this is used for data trasnformation)
+-NumPy (Numerical Python - this package is used for mathematical or numerical operations)
+-Scikit Learn - This package is consist of all the Machine Learning techniques including algorithms,evalutaion metrices, preprocessing functions etc
+-Matplotlib/Seaborn - These packages are used for data visualization
+
+Anaconda - Data Science package- All the ML or DS packages are pre-installed
+
+
+important prerequisties in python
+-collections
+-lambda and map function
+-functions

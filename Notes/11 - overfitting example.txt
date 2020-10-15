@@ -1,0 +1,32 @@
+trignometry
+geometry
+integration
+differntiation 
+
+
+class test is limited to geometry
+
+
+
+ 				        class test(geometry)(25marks)		final exam(100 marks)
+
+
+student1 - geometry-10 hours				25 (over fitting)		25 (low training error and high eval error)
+
+student2 - geometry - 2.5 hours				10 (Right fit)			40 (moderate training error and moderate eval error)
+	   trig - 2.5hours
+	   int - 2.5 hours
+           diff - 2.5 hours
+
+student3- geo - 10mins					2 (underfitting)		8(high training error and high eval error)
+	  trig - 10mins
+	  int  - 10mins
+          diff - 10mins
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+student4 - geometry - 10 hours				25(ideal fit)				100(very low training error and very low eval error)
+	   trig - 10 hours
+	   int - 10 hours
+           diff - 10 hours

@@ -1,0 +1,34 @@
+Machine Learning Algorithms
+
+Supervised Learning
+	1.Regression
+	a.Linear Regression(Lasso,Ridge,ElasticNet)
+	b.Random Forest Regression
+	c.Support Vector Regression
+	d.XGBoost
+
+	2.Classification
+	a.Logisitic Regression(Lasso,Ridge,ElasticNet)
+	b.Random Forest Classifier
+	c.Support vector Classifier
+	d.XGBoost
+	e.KNN
+	f.Naive Bayes
+
+Unsupervised Learning
+	1.CLustering
+	a.KMeans
+	b.Agglomerative Clustering 
+
+	2.Dimensionality Reduction
+	a.PCA
+
+Natural Language Processing
+	1.NLTK
+
+
+The questions should be asked :
+
+1. Is there any predefined equation?
+2. Is there any output value?
+3. Is the output value continous or discrete?

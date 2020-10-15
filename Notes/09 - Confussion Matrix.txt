@@ -1,0 +1,33 @@
+Confussion Matrix
+
+A confusion matrix is a table that is often used to 
+describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known.
+
+Test Data
+Positive - 20  (malignant)
+Negative - 80  (benign)
+
+Predicted Data
+Positive - 18  (malignant)
+Negatie  - 82  (benign)
+
+
+CM - comparisson between actual results and predicted results.
+
+
+actual		Positive	negative	TP = 17, TN = 79, FP = 1, FN = 3		
+Prediced	
+
+Postive		17		1		Accuracy  = (TP+TN)/(TP+TN+FP+FN)
+
+Negative	3		79
+
+
+
+
+Assume we are predicting breast tumor is benign or malignant
+
+true positives (TP): These are cases in which we predicted yes (they have the malignant), and they do have the malignant.
+true negatives (TN): We predicted no, and they don't have the malignant.
+false positives (FP): We predicted yes, but they don't actually have the malignant. (Also known as a "Type I error.")
+false negatives (FN): We predicted no, but they actually do have the malignant. (Also known as a "Type II error.")
