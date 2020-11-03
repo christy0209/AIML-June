@@ -1,0 +1,36 @@
+Just identify few things such as
+
+What are the insights can be extracted from the data (EDA)
+What are the preprocessing can done for better modelling
+
+
+
+
+EDA (descriptive analytics - we can use every information) 
+
+- Which party has candidates with crimanal cases
+- party vs asset
+- age profiling of candidates
+- gender diversity
+- Election result summary (party vs number of seats won/ number of seats contested)
+- partywise voteshare
+- partywise performance in state level
+- what is the significance of Cases/Education in winning the election
+- Categorywise representation
+- Polling percentage analysis
+- Margin analysis
+
+
+
+Preprocessing 
+
+- null value removal
+- convert ASSETS and LIABILITIES into numerical values
+- remove candidates with less than 1-2 % total votes received
+- remove NOTA
+- Remove corelated columns(eg party and symbol)
+- Handling Special Characters
+- Remove vote collected related information before modelling
+- CRIMINAL\nCASES is object, convert into numerical value
+
+

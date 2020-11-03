@@ -1,0 +1,63 @@
+TP - True Positive
+FP - False Positive
+FN - False Negative
+TN - True Negative
+
+
+Accuracy = (TP+TN)/N
+
+Assume that there is a highly skewed dataset - Let it a cancer detection data.
+out of 1000 entires , only 5 entries are positive and 995 are negative.(actual situation)
+
+I am creating a model without using an ML algorithm, and blidnly predicting that the patient is free from cancer.
+
+whatever be the input, my result is (Negative)
+
+Postive Prediction - 0
+Negative Prediction - 1000
+
+So
+
+TP - 0 
+FP - 0
+FN - 5
+TN - 995
+
+
+Accuracy = (TP+TN) / N  =  99.5%
+
+But this model is not useful, i have to check for the correctness of prediction of Positives,
+Accuracy can't be a single point decision in all the cases.
+
+Precision and Recall should be considerd.
+
+Precision - Precision (PREC) is calculated as the number of correct positive predictions divided by the total number of positive prediction
+It is also called positive predictive value (PPV). 
+
+Precision - TP / (TP+FP) 
+
+
+Precision for Negative = TN/(TN+FN)
+
+
+Recall - Recall is calculated as the number of correct positive predictions divided by the total number of positives.
+It is also called Sensitivity or True Positive Rate (TPR)
+
+Recall = TP / (TP+FN)
+
+Recall for Negative = TN / (TN+FP)
+
+
+F1-Score - F1-score is a harmonic mean of precision and recall.
+
+F1 = 2PR/(P+R)
+
+
+AUC(Area Under Curve) - ROC(receiver operating characteristic) curve is a performance measurement for classification problem at various thresholds settings. 
+ROC is a probability curve and AUC represents degree or measure of separability. 
+It tells how much model is capable of distinguishing between classes. 
+Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1s. 
+By analogy, Higher the AUC, better the model is at distinguishing between patients with disease and no disease.
+
+Y - True Positive Rate  - Recall for Positive (TP/TP+FN)
+X - True Negative Rate  - Recall for Negative (TN/TN+FP)
