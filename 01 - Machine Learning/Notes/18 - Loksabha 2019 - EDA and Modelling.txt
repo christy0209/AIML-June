@@ -8,17 +8,17 @@ What are the preprocessing can done for better modelling
 
 EDA (descriptive analytics - we can use every information) 
 
-- Which party has candidates with crimanal cases
-- party vs asset
-- age profiling of candidates
-- gender diversity
-- Election result summary (party vs number of seats won/ number of seats contested)
-- partywise voteshare
-- partywise performance in state level
-- what is the significance of Cases/Education in winning the election
-- Categorywise representation
-- Polling percentage analysis
-- Margin analysis
+1- Which party has candidates with crimanal cases
+2- party vs asset
+3- age profiling of candidates
+4- gender diversity
+5- Election result summary (party vs number of seats won/ number of seats contested)
+6- partywise voteshare
+7- partywise performance in state level
+8- what is the significance of Cases/Education in winning the election
+9- Categorywise(cast) representation
+10- Polling percentage analysis
+11- Margin analysis
 
 
 

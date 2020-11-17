@@ -1,0 +1,68 @@
+Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. 
+It is not a single algorithm but a family of algorithms where all of them share a common principle, 
+i.e. every pair of features being classified is independent of each other.
+
+The fundamental Naive Bayes assumption is that each feature makes an independent and equal contribution to the outcome.
+
+We assume that no pair of features are dependent
+Secondly, each feature is given the same weight(or importance). 
+None of the attributes is irrelevant and assumed to be contributing equally to the outcome.
+
+Bayes’ Theorem finds the probability of an event occurring given the probability of another event that has already occurred
+
+where A and B are events and P(B) ? 
+
+Basically, we are trying to find probability of event A, given the event B is true. Event B is also termed as evidence.
+P(A) is the priori of A (the prior probability, i.e. Probability of event before evidence is seen). 
+The evidence is an attribute value of an unknown instance(here, it is event B).
+P(A|B) is a posteriori probability of B, i.e. probability of event after evidence is seen.
+
+
+X = (Rainy, Hot, High, False)
+y = No
+
+So basically, P(y|X) here means, the probability of “Not playing golf” given that the weather conditions are “Rainy outlook”, 
+“Temperature is hot”, “high humidity” and “no wind”.
+
+Now, its time to put a naive assumption to the Bayes’ theorem, 
+which is, independence among the features. So now, we split evidence into the independent parts.
+
+
+
+In a particular pain clinic, 10% of patients are prescribed narcotic pain killers. 
+Overall, five percent of the clinic’s patients are addicted to narcotics (including pain killers and illegal substances). 
+Out of all the people prescribed pain pills, 8% are addicts. 
+If a patient is an addict, what is the probability that they will be prescribed pain pills?
+
+A :   prescribe pain pills
+B :   patient is addict
+P(B|A) : prob of addiction given that taking pills
+
+P(A|B) - ???  prob of taking pills given that addicted
+
+
+P(A) - 0.10
+P(B) - 0.05
+P(B|A) - 0.08
+
+P(A|B) - P(A)*P(B|A)/P(B) = 0.10 * 0.08 / 0.05  = .16 = 16%
+
+
+
+
+Of the students in the college, 60% of the students reside in the hostel and 40% of the students are day scholars. 
+Previous year result reports that 30% of all students who stay in the hostel scored A Grade and 20% of day scholars scored A grade. 
+At the end of the year, one student is chosen at random and found that he/she has an A grade. 
+What is the probability that the student is a hostlier? 
+
+P(A) - Hostlier 0.6
+P(B) -  A grade  0.6*.3 + .4*.2 = 0.26
+P(B|A) - A grade given that Hostlier 0.3
+P(A|B) - 0.6 * 0.3 / 0.26 = 0.69
+
+type		total	Agrade
+hostler 	60	18
+dayscholar	40	8
+
+Total		100	26 --> P(B) = 0.26
+
